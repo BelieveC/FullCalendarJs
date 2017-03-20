@@ -1,0 +1,15 @@
+current directory: /home/chaitanya/Downloads/TPIS/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/chaitanya/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20170320-12745-rrtgqm.rb extconf.rb
+creating Makefile
+
+current directory: /home/chaitanya/Downloads/TPIS/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/chaitanya/Downloads/TPIS/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/chaitanya/Downloads/TPIS/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20170320-12745-r5zb54

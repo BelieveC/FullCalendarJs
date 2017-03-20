@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   resources :candidates
   devise_for :users
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  root to: 'landing#index'
+  root to: 'visitors#index'
+  resources :events
   get '/authentication_error', to:'landing#error', as: :authentication_error
   get '/user_controls', to: 'user_controls#user_controls', as: :admin_user_controls
   get '/user_controls/:id', to: 'user_controls#edit_user', as: :admin_user_edit

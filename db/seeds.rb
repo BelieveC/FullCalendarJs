@@ -47,7 +47,7 @@ user.save!
 
 user = User.new
 user.email = 'minion4@sdc.com'
-user.password = 'minion4'
+user.password = 'git '
 user.password_confirmation = 'minion4'
 user.role = 'tcf'
 user.skip_confirmation!
